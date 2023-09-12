@@ -1,22 +1,16 @@
-import { Post } from "./Post"
 import { Header } from './components/Header'
+import { Post } from "./Post"
+
+import styles from './App.module.css';
+
 import './global.css'
 
-function App() {
+export function App() {
   return (
    <div>
     <Header />
 
-      <Post
-        author="Diogo Pereira"
-        content="blablablablablablablablablablabla"
-      />
-      <Post
-        author="Kauan"
-        content="Diamante lixo"
-      />
+    <div className="wrapper"></div>
   </div>
   )
 }
-
-export default App
