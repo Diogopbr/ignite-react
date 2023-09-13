@@ -6,7 +6,7 @@ import styles from './App.module.css';
 import './global.css'
 import { Sidebar } from './components/sidebar';
 
-export function App() {
+export default function App() {
   return (
    <div>
     <Header />
@@ -27,5 +27,3 @@ export function App() {
   </div>
   )
 }
-
-export default App
